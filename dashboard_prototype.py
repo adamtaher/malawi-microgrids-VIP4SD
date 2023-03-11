@@ -224,22 +224,31 @@ def FillSpreadSheet2(title, header1, header2, header3, array1, array2, array3, f
 #......................DATAFRAMES..............................................
 # Health and Education # 
 df_SmartphoneSatisfaction = pd.read_excel(os.path.join(APP_ROOT, r'AccessToSmartphones.xlsx'))
+df_SmartphoneSatisfaction = pd.read_excel(os.path.join(APP_ROOT,'https://d.docs.live.net/928bda2084536eb1/Documents/Statisfication%20smartphones_KUD.xlsx'))
 df_NoSchool = pd.read_excel(os.path.join(APP_ROOT, r'Children_Not_School.xlsx'))
-df_StudyingHours = pd.read_excel(os.path.join(APP_ROOT, r'StudyingHours.xlsx'))
-df_HealthInfo = pd.read_excel(os.path.join(APP_ROOT, r'HealthInformationSource.xlsx'))
+df_StudyingHours = pd.read_excel(os.path.join(APP_ROOT, r'https://d.docs.live.net/928bda2084536eb1/Documents/Average%20numbers%20of%20hours%20studying%20at%20home_KUD.xlsx'))
 
+df_HealthInfo = pd.read_excel(os.path.join(APP_ROOT, r'https://d.docs.live.net/928bda2084536eb1/Documents/Main%20source%20of%20health%20information_KUD.xlsx'))
+df_HealthInfo = pd.read_excel(os.path.join(APP_ROOT, r'Main source of health info.xlsx'))
 # Employment and Finance # 
 df_Finances = pd.read_excel(os.path.join(APP_ROOT, r'Monthly_Finances.xlsx'))
+
 df_Income = pd.read_excel(os.path.join(APP_ROOT, r'Monthly_Income.xlsx'))
 df_FinancialSecurity = pd.read_excel(os.path.join(APP_ROOT, r'Financial_Security.xlsx'))
+
 df_business_month = pd.read_excel(os.path.join(APP_ROOT, r'Businesses_Month.xlsx'))
 
 # Energy Access #
 df_EnergySources = pd.read_excel(os.path.join(APP_ROOT, r'Electricity_Source.xlsx'))
-df_EnergySatisfaction = pd.read_excel(os.path.join(APP_ROOT, r'Energy_Satisfaction.xlsx'))
-df_Appliances = pd.read_excel(os.path.join(APP_ROOT, r'Household_Appliances.xlsx'))
-df_LightSource = pd.read_excel(os.path.join(APP_ROOT, r'Lighting_Source.xlsx'))
 
+df_EnergySatisfaction = pd.read_excel(os.path.join(APP_ROOT, r'Energy_Satisfaction.xlsx'))
+
+df_EnergySatisfaction = pd.read_excel(os.path.join(APP_ROOT, r'https://d.docs.live.net/928bda2084536eb1/Documents/HoeseHold%20Energy%20Statisfication-KUD.xlsx'))
+df_Appliances = pd.read_excel(os.path.join(APP_ROOT, r'Household_Appliances.xlsx'))
+df_Appliances = pd.read_excel(os.path.join(APP_ROOT, r'https://d.docs.live.net/928bda2084536eb1/Documents/Appliances%20HOuseHold-KUD.xlsx'))
+
+df_LightSource = pd.read_excel(os.path.join(APP_ROOT, r'Lighting_Source.xlsx'))
+df_LightSource = pd.read_excel(os.path.join(APP_ROOT, r'https://d.docs.live.net/928bda2084536eb1/Documents/Lightning%20source-KUD.xlsx'))
 # Tarif and Services #
 df_CostSatisfaction = pd.read_excel(os.path.join(APP_ROOT, r'Cost_Satisfaction.xlsx'))
 df_PaymentMethod = pd.read_excel(os.path.join(APP_ROOT, r'PaymentMethod_Satisfaction.xlsx'))
